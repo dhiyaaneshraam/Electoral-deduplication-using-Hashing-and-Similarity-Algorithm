@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #f0f2f8;
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+:root {
+  --primary: #1a2254;
+  --secondary: #3d4fa0;
+  --accent: #f59e0b;
+  --success: #059669;
+  --danger: #e11d48;
+  --warning: #d97706;
+  --bg: #f0f2f8;
+  --card-bg: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #8896b3;
+  --border: #e4e8f4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page-fade {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #059669;
+  animation: pulse-dot 1.5s ease-in-out infinite;
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+}
+
+input, select, textarea {
+  font-family: 'DM Sans', sans-serif;
+}
