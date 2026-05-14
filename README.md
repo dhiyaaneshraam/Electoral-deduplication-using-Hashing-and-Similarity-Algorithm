@@ -148,7 +148,7 @@ npm run dev
 ## 👨‍💻 Author
 
 **[Your Name]**
-- GitHub: [@dhiyaaneshraam](https://github.com/dhiyaaneshraam/Electoral-deduplication-using-Hashing-and-Similarity-Algorithm))
+- GitHub: [@dhiyaaneshraam](https://github.com/dhiyaaneshraam/Electoral-deduplication-using-Hashing-and-Similarity-Algorithm)
 - gmail: [dhiyaaneshraam@gmail.com]
 ---
 
